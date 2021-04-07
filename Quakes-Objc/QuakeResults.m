@@ -19,7 +19,10 @@
 -(instancetype)initWithQuakes:(NSArray<Quake *> *)someQuakes
 {
     if (self = [super init]) {
-        _quakes = someQuakes.copy;
+        NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"magnitude" ascending:NO];
+        
+//        _quakes = someQuakes.copy;
+        _quakes = [someQuakes sortedArrayUsingDescriptors:@[sortDescriptor]];
     }
     return self;
 }
