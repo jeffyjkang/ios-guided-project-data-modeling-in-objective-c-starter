@@ -115,4 +115,9 @@
     return container;
 }
 
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"<%@: %p; M%.1f - %@>", NSStringFromClass(self.class), self, self.magnitude, self.place];
+}
+
 @end

@@ -28,6 +28,8 @@
 		CC6DCF162619772E00A72CB4 /* FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DCF152619772E00A72CB4 /* FirstResponder.m */; };
 		CC6DCF1B2619855200A72CB4 /* Quake.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DCF1A2619855200A72CB4 /* Quake.m */; };
 		CC6DCF2026199AF600A72CB4 /* QuakeResults.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DCF1F26199AF600A72CB4 /* QuakeResults.m */; };
+		CC75F627261DB8AD001CFABC /* NSDateInterval+DayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F626261DB8AD001CFABC /* NSDateInterval+DayAdditions.m */; };
+		CC75F62C261DC390001CFABC /* QuakeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F62B261DC390001CFABC /* QuakeFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		CC6DCF1A2619855200A72CB4 /* Quake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quake.m; sourceTree = "<group>"; };
 		CC6DCF1E26199AF600A72CB4 /* QuakeResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuakeResults.h; sourceTree = "<group>"; };
 		CC6DCF1F26199AF600A72CB4 /* QuakeResults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeResults.m; sourceTree = "<group>"; };
+		CC75F625261DB8AD001CFABC /* NSDateInterval+DayAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateInterval+DayAdditions.h"; sourceTree = "<group>"; };
+		CC75F626261DB8AD001CFABC /* NSDateInterval+DayAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateInterval+DayAdditions.m"; sourceTree = "<group>"; };
+		CC75F62A261DC390001CFABC /* QuakeFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuakeFetcher.h; sourceTree = "<group>"; };
+		CC75F62B261DC390001CFABC /* QuakeFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,10 @@
 				CC6DCF1A2619855200A72CB4 /* Quake.m */,
 				CC6DCF1E26199AF600A72CB4 /* QuakeResults.h */,
 				CC6DCF1F26199AF600A72CB4 /* QuakeResults.m */,
+				CC75F625261DB8AD001CFABC /* NSDateInterval+DayAdditions.h */,
+				CC75F626261DB8AD001CFABC /* NSDateInterval+DayAdditions.m */,
+				CC75F62A261DC390001CFABC /* QuakeFetcher.h */,
+				CC75F62B261DC390001CFABC /* QuakeFetcher.m */,
 			);
 			path = "Quakes-Objc";
 			sourceTree = "<group>";
@@ -272,11 +282,13 @@
 				BDFC8FB323FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB523FDA12B00A39B21 /* LSILog.m in Sources */,
 				CC6DCF2026199AF600A72CB4 /* QuakeResults.m in Sources */,
+				CC75F627261DB8AD001CFABC /* NSDateInterval+DayAdditions.m in Sources */,
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
 				CC6DCF1B2619855200A72CB4 /* Quake.m in Sources */,
 				BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */,
 				BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */,
 				CC6DCF162619772E00A72CB4 /* FirstResponder.m in Sources */,
+				CC75F62C261DC390001CFABC /* QuakeFetcher.m in Sources */,
 				BDFC8F9323FDA0A100A39B21 /* main.m in Sources */,
 				BDFC8F8523FDA09F00A39B21 /* SceneDelegate.m in Sources */,
 			);
